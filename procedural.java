@@ -2,25 +2,11 @@ public class procedural {
 
     public static void main(String[] args) {
 
-        class Person {
-            String name;
-            int age;
-            Person(String name, int age) {
-                this.name = name;
-                this.age = age;
-            }
-            void printDetails() {
-                System.out.println(name + " is " + age + " years old");
-            }
-        }
-        Person[] people = {
-            new Person("Ben",10),
-            new Person("Mary", 6),
-            new Person("Leo", 97),
-            new Person("Joseph", 99)
-        };
-        for (Person p : people) {
-            p.printDetails();
+        String[] names = {"Ben", "Mary", "Leo"};
+        int[] ages = {10, 6};
+
+        for (int i = 0; i < names.length; i++) {
+            System.out.println(names[i] + " is " + ages[i] + " years old");
         }
     }
 }
