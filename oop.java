@@ -14,8 +14,6 @@ public class oop {
             }
         }
         Person[] people = {
-            new Person("Ben",10),
-            new Person("Mary", 6),
             new Person("Leo", 97),
             new Person("Joseph", 99)
         };
